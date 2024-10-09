@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/devdb
+    username: root
+    password: Madu7788?
+  jpa:
+    database: h2
+    show_sql: true
+    hibernate:
+      ddl-auto: create
